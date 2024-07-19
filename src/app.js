@@ -4,7 +4,7 @@ import cors from "cors";
 import Song from "../database/models/song.model.js";
 
 (async (err) => {
-  await mongoose.connect("mongodb://localhost:27017/songs-db");
+  await mongoose.connect("mongodb://34.101.90.47:27017/songdb");
 
   if (err) {
     console.log(err);
